@@ -1,0 +1,66 @@
+<div class="row">
+  <div class="col-md-3" id="infoNav">
+    <table class="table">
+      <tbody>
+        <h5>System</h5>
+        <tr>
+          <td class="lineTitle">Model:</td>
+          <td>HP Laptop</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">Serial No:</td>
+          <td>8756474321UT</td>
+        </tr>
+
+        <h5>Operating System</h5>
+        <tr>
+          <td class="lineTitle">Distribution:</td>
+          <td>Microsoft</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">Architecture:</td>
+          <td>x64</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">HostName:</td>
+          <td>DESKTOP-373N123PO</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">Manufacturer:</td>
+          <td>Intel</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">Reg Number:</td>
+          <td>8756474321UT</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">Reg Number:</td>
+          <td>8756474321UT</td>
+        </tr>
+        <tr>
+          <td class="lineTitle">Reg Number:</td>
+          <td>8756474321UT</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col-md-9">
+    <div id="pageContent">
+      <div class="card" id="regFormCard">
+        <div class="card-header">
+          Login
+        </div>
+        <div class="card-body">
+          <form>
+            <label for="regNumber">Enter Reg Number:</label>
+            <input type="text" class="form-control" id="regNumber" disabled/>
+            <div id="errorMessage" *ngIf="errorMessageExist">
+              {{errorMessage}}
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+#regFormCard {
+  width: 30%;
+  margin-top: 140px;
+}
+
+#pageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header {
+  background-color: #0a5d00;
+  color: white;
+  font-size: 18px;
+}
+
+#infoNav {
+  background: #0a5d00;
+  height: 100vh
+}
+
+.table {
+  color:white;
+}
+
+#errorMessage {
+  text-align: center;
+  color:#ef0d0d;
+  margin-top: 10px;
+}
+
+.table {
+  font-size:12px;
+}
+
+.lineTitle {
+  width:40%
+}
